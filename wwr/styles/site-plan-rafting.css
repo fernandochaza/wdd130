@@ -8,8 +8,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #3E4CE6   ;
   --secondary-color: white ;
-  --accent1-color: #F5DC82;
-  --accent2-color: #A88A19;
+  --accent1-color: #70749C;
+  --accent2-color: #F5DC82;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Comfortaa";
@@ -20,9 +20,9 @@ Fonts are separated by a & */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #3E4CE6; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #A88A19  ;
+  --paragraph-background-color: #70749C  ;
   --nav-link-color: #3E4CE6;
-  --nav-background-color: #A88A19;
+  --nav-background-color: #70749C;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #3E4CE6;
 }
