@@ -98,6 +98,7 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
+  font-family: var(--paragraph-font);
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
