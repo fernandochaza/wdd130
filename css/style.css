@@ -3,34 +3,47 @@
     font-family: 'Montserrat', sans-serif; /* this should be the rest of the output you got from Google Fonts */
   /* font-family: "Raleway', sans-serif"; */
   /* font-family: "Open Sans", sans-serif; */
-    background-color: #00539f;
+    background-color: #5C7373;
 
   }
   
-  nav {
-    background-color: #00539f;
+  /* * {
+    border: 2px solid blue;
+  } */
+  
+  nav{
+    text-align: center;
+    background-color: #0554F2;
     padding: 10px;
 }
 
+  footer p {
+    text-align: center;
+    background-color: #0554F2;
+    padding: 10px;
+    font-size: 2em;
+}
+
   a {
-  color: white;
+  color: #F2F2F2;
   margin: 40px;
   line-height: 1.5em;
+  font-size: 1.5em;
 }
   
 #active {
-  background-color: white;
+  background-color: F2F2F2;
   color: steelblue;
 }
 
   body {
-    text-align: center;
  /* width: 600px; This forces the body to always be 600 pixels wide.*/
     margin: 10px auto;
-    background-color: #ff9500;
+    background-color: #77A0F2;
     padding: 5px 20px 20px 20px; /* The values set top, right, bottom, left, in that order.*/
     border: 5px solid black; /* This sets values for the width, style and color of the border. In this case, it's a five-pixel–wide, solid black border, on all sides of the body.*/
   }
+
   h1 {
     font-size: 40px;
     text-align: center;
@@ -42,16 +55,23 @@
   
   p {
     font-size: 16px;
+    text-align: center;
     line-height: 1.5    ;
     letter-spacing: 0.5px;
     padding: 10px;
   }
   
   img {
+    width: 40%;
     display: block;
-    margin: 0 auto;
-    width: 400px;
+    margin: 20px auto;
     border: 4px solid steelblue;
+
+  }
+
+  a:hover {
+    background-color: white;
+    color: steelblue;
   }
 
     /* padding and margin:
