@@ -19,6 +19,7 @@ nav a {
 
 .button-box {
     text-align: center;
+    margin: 20px
 }
 
 main section{
@@ -32,6 +33,7 @@ main section{
 
 body {
     background-color: #3E4CE6;
+    margin: 0;
 }
 
 header {
@@ -56,6 +58,7 @@ nav a:hover {
 
 .msg {
     background-color:#232646;
+    padding: 5px 20px 15px;
 }
 
 .msg h2 {
@@ -80,18 +83,22 @@ nav a:hover {
 
 footer {
     background-color: #F5DC82;
+    color: #3E4CE6;
 }
 
 h4 {
     color: white;
 }
 
-footer {
-    color: #3E4CE6;
+h1 {
+    margin: 50px 0;
 }
 
 footer p {
-    font-size: 1.2em;
+    padding: 25px;
+   /* color: white; */
+    font-size: 1.25em;
+    margin: 20px auto; 
 }
 
 footer a {
@@ -103,4 +110,15 @@ footer p a:hover {
     background-color: #3E4CE6;
     color:  white;
     text-decoration: underline;
+}
+
+a {
+   padding: 10px; 
+   color:  #3E4CE6;
+   margin: 40px;
+   line-height: 1.5em;
+}
+
+.footer-links {
+   display:flex;
 }

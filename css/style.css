@@ -1,34 +1,30 @@
-  html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family: 'Montserrat', sans-serif; /* this should be the rest of the output you got from Google Fonts */
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: 'Montserrat', sans-serif; /* this should be the rest of the output you got from Google Fonts */
   /* font-family: "Raleway', sans-serif"; */
   /* font-family: "Open Sans", sans-serif; */
     background-color: #5C7373;
 
-  }
+}
   
-  /* * {
-    border: 2px solid blue;
-  } */
-  
-  nav{
-    text-align: center;
-    background-color: #0554F2;
-    padding: 10px;
+/* * {
+  border: 2px solid black;
+} */
+
+nav {
+  text-align: center;
+  background-color: #0554F2;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-  footer p {
-    text-align: center;
-    background-color: #0554F2;
-    padding: 10px;
-    font-size: 2em;
-}
-
-  a {
+a {
   color: #F2F2F2;
-  margin: 40px;
-  line-height: 1.5em;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1em;
   font-size: 1.5em;
+  
 }
   
 #active {
@@ -36,54 +32,65 @@
   color: steelblue;
 }
 
-  body {
- /* width: 600px; This forces the body to always be 600 pixels wide.*/
-    margin: 10px auto;
-    background-color: #77A0F2;
-    padding: 5px 20px 20px 20px; /* The values set top, right, bottom, left, in that order.*/
-    border: 5px solid black; /* This sets values for the width, style and color of the border. In this case, it's a five-pixel–wide, solid black border, on all sides of the body.*/
-  }
+body {
+  margin: 0;
+  background-color: #77A0F2;
+}
 
-  h1 {
-    font-size: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color: #00539f;
-    text-shadow: 3px 3px 1px black;
-  }
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 50px 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
   
-  p {
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5    ;
-    letter-spacing: 0.5px;
-    padding: 10px;
-  }
+p {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  padding: 10px 80px;
+}
+
+footer {
+  background-color: #0554F2;
+  padding: 0px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.3em;
+  color:white;
+  display: inline-block;
+ 
+}
   
-  img {
-    width: 40%;
-    display: block;
-    margin: 20px auto;
-    border: 4px solid steelblue;
+img {
+  padding: 15px;
+  width: 40%;
+  display: block;
+  margin: 30px auto;
+  border: 4px solid steelblue;
 
-  }
+}
 
-  a:hover {
-    background-color: white;
-    color: steelblue;
-  }
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
 
-    /* padding and margin:
-    When one value is specified, it applies the same margin to all four sides.
-    When two values are specified, the first margin applies to the top and bottom, the second to the left and right.
-    When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.
-    When four values are specified, the margins apply to the top, right, bottom, and left in that order (clockwise).
-    
-    text-shadow:
-    The first pixel value sets the horizontal offset of the shadow from the text: how far it moves across.
-    The second pixel value sets the vertical offset of the shadow from the text: how far it moves down.
-    The third pixel value sets the blur radius of the shadow. A larger value produces a more fuzzy-looking shadow.
-    The fourth value sets the base color of the shadow.
+  /* padding and margin:
+  When one value is specified, it applies the same margin to all four sides.
+  When two values are specified, the first margin applies to the top and bottom, the second to the left and right.
+  When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom.
+  When four values are specified, the margins apply to the top, right, bottom, and left in that order (clockwise).
+  
+  text-shadow:
+  The first pixel value sets the horizontal offset of the shadow from the text: how far it moves across.
+  The second pixel value sets the vertical offset of the shadow from the text: how far it moves down.
+  The third pixel value sets the blur radius of the shadow. A larger value produces a more fuzzy-looking shadow.
+  The fourth value sets the base color of the shadow.
 
-    */
+  */
