@@ -1,16 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Noto+Sans:ital,wght@0,700;1,400&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+body {
+    background-color: #3E4CE6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', tahoma, sans-serif;
+    font-size: 22px;
+}
+
+header {
+    background-color: #F5DC82;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center
 }
 
 nav a {
     text-align: center;
     color: #3E4CE6;
     text-decoration: none;
+    margin: 10px 10px;
+    
 }
 
-#hero-msg h1, #hero-msg h4 {
+nav a:hover {
+    background-color: #3E4CE6;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+    padding: 5px 10px;
+}
+
+#hero-msg h1, 
+#hero-msg h4 {
     text-align: center;
+    font-family: 'Noto Sans', tahoma, sans-serif;
 }
 
 #hero-img {
@@ -19,39 +50,41 @@ nav a {
 
 .button-box {
     text-align: center;
-    margin: 20px
+    margin: 30px auto;
 }
 
 main section{
     text-align: center;
 }
 
-#background {
-    height: 725px;
-    background-color: #70749C; 
+main section img {
+    box-sizing: border-box;
 }
 
-body {
-    background-color: #3E4CE6;
-    margin: 0;
-}
-
-header {
-    background-color: #F5DC82;
-}
-
-nav a:hover {
-    background-color: #3E4CE6;
+.home-grid {
     color: white;
 }
 
-.book, .join {
+#background {
+    height: 725px;
+    background-color: #70749C; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.book,
+.join {
     background-color: white;
     color: #232646;
     text-decoration: none;
+    font-size: 18px;
+    padding: 10px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book:hover, .join:hover {
+.book:hover,
+.join:hover {
     background-color: #232646;
     color: white;
 }
@@ -59,26 +92,37 @@ nav a:hover {
 .msg {
     background-color:#232646;
     padding: 5px 20px 15px;
+    line-height: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Comfortaa', 'Lucida Grande', sans-serif;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .home-title {
     color: white;
-}
-
-.logo {
-    width: 80px;
+    font-family: 'Comfortaa', 'Lucida Grande', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 footer {
@@ -96,14 +140,14 @@ h1 {
 
 footer p {
     padding: 25px;
-   /* color: white; */
     font-size: 1.25em;
-    margin: 20px auto; 
+    margin: 5px auto; 
 }
 
 footer a {
     color: #3E4CE6;
     text-decoration: none;
+    margin: 10px;
 }
 
 footer p a:hover {
@@ -113,12 +157,17 @@ footer p a:hover {
 }
 
 a {
-   padding: 10px; 
    color:  #3E4CE6;
-   margin: 40px;
    line-height: 1.5em;
 }
 
-.footer-links {
-   display:flex;
+.card-img{
+    border: 10px solid #232646;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
