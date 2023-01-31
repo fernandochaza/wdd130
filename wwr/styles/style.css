@@ -46,7 +46,6 @@ nav a:hover {
 
 .logo {
     width: 80px;
-    padding: 5px 10px;
 }
 
 #hero {
@@ -130,6 +129,7 @@ nav a:hover {
     margin-top: 30px;
     margin-bottom: 80px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .card-img:hover {
