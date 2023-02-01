@@ -63,6 +63,10 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 
+.logo {
+  width: 30%;
+}
+
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
@@ -73,6 +77,10 @@ li {
   font-family: var(--paragraph-font);
   list-style:inside;
   list-style-type: circle;
+}
+ul {
+  margin-bottom: -30px; /* Used to eliminate long space after ul */
+  margin-top: -20px;
 }
 .colors {
   width: 100%;
@@ -104,6 +112,7 @@ li {
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
+  font-weight: bold;
 }
 
 nav {
