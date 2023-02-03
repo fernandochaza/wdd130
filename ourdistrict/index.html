@@ -5,67 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Distrito Caleta Olivia</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 <div id="content">
     <header>
         <p class="top-text">La Iglesia de Jesucristo de los Santos de los Últimos Días</p>
-        <div class="fixed-nav">
+        
+        <nav class="fixed-nav">
             <p class="nav-title">Distrito Caleta Olivia</p>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="history.html">District History</a>
-                <a href="leadership.html">Leadership & Branches</a>
-            </nav>
-        </div>
+            <a id="a1" href="index.html">Home</a>
+            <a id="a2" href="history.html">District History</a>
+            <a id="a3" href="leadership.html">Leadership & Branches</a>
+        </nav>
+
     </header>
 
     <div class="home-banner">
         <img id="home-banner-background" src="images/jesus-left.avif" alt="Jesus looking at you">
-        <section class="banner-msg">
-            <h1>Welcome to Caleta Olivia’s District. The Church of Jesus Christ of Latter-Day Saints</h1>
-        </section>
+        <div class="home-banner-msg-container"></div>
+        <h1 id="home-banner-msg"> Bienvenido</h1>
+        
     </div>
 
     <main>
         <section class="home-floating-text">
-            <h3>
-                Our district is located in the Argentinian Patagonia. The head is in Caleta Olivia’s Branch, an 80.000 population city in the north of Santa Cruz province.<br><br>
-                The district extends to the south and west covering Santa Cruz's north with 4 branches:</h3>
-                <ul>
-                    <li>Caleta Olivia</li>
-                    <li>Pico Truncado</li>
-                    <li>Las Heras</li>
-                    <li>Puerto Deseado</li>
-                </ul>
+            <h2>
+                El Distrito Caleta Olivia está ubicado en la Patagonia Argentina. Nuestra base se encuentra en la rama de Caleta Olivia, una ciudad con aproximadamente 80.000 habitantes en el norte de la provincia de Santa Cruz.<br><br>
+                El distrito se extiende hacia el oeste y el sur, cubriendo todo el norte de la provincia de Santa Cruz con 4 ramas:
+                </h2>
+            <ul>
+                <li>Caleta Olivia</li>
+                <li>Pico Truncado</li>
+                <li>Las Heras</li>
+                <li>Puerto Deseado</li>
+            </ul>
             
         </section>
         <div class="home-grid">
             <div class="grid-background"></div>
 
             <img class="history-grid-img" src="images/lds-history.jpeg" alt="People reading scriptures">
-            <p class="grid-text-history">La iglesia fue establecida en Santa Cruz en el año 1978. Aprenda más acerca de nosotros...</p>
+            <p class="grid-text-history">La iglesia fue establecida en Santa Cruz en el año 1978. Miles de personas han conocido el Evangelio de Jesucristo desde entonces.<br><br>Aprenda más acerca de nosotros...</p>
             <div class="button-container-history"></div>
-            <a class="action-button" href="history.html">Ir a página</a>
+            <a class="action-button-history" href="history.html">Ir a página</a>
             
             <img class="home-leadership-img" src="images/inside-chapel.webp" alt="Inside the chapel">
-            <p class="grid-text-leadership">Las personas sirven en la iglesia de manera voluntaria para ayudar a todos a conocer el Evangelio. Conozca a nuestros líderes...</p>
+            <p class="grid-text-leadership">Las personas sirven en la iglesia de manera voluntaria para ayudar a todos a conocer y vivir el Evangelio de Jesucristo.<br><br>Conozca a nuestros líderes...</p>
             <div class="button-container-leadership"></div>
-            <a class="action-button" href="leadership.html">Ir a página</a>
+            <a class="action-button-leadership" href="leadership.html">Ir a página</a>
                 
         </div>
     </main>
-    <footer class="footer-grid">
-        <div class="footer-background"></div>
-        <img class="logo" src="images/logo.png" alt="District Logo">
-        <nav>
-            <a href="site-plan.html">Site Plan</a>
-            <a href="https://www.veniracristo.org/pascua">Nuestras Creencias</a>
-            <a href="https://www.churchofjesuschrist.org/?lang=spa">Sitio Ofifial de la Iglesia</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=spa">El Libro de Mormón</a>
+    <footer>
+        <nav class="footer-nav">
+        <img id="logo" src="images/logo.png" alt="District Logo">
+        <a id="a4" href="site-plan.html">Site Plan</a>
+        <a id="a5" href="https://www.veniracristo.org/pascua">Nuestras Creencias</a>
+        <a id="a6" href="https://www.churchofjesuschrist.org/?lang=spa">Sitio Ofifial de la Iglesia</a>
+        <a id="a7" href="https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=spa">El Libro de Mormón</a>
         </nav>
-        <p>&copy; Fernando Chazarreta | Sitio realizado como proyecto personal </p>
-        <p>Este NO es un sitio oficial de la Iglesia de Jesucristo de los Santos de los Últimos días</p>
+        </div>
+        <div id="bottom-text">
+            <p>&copy; Fernando Chazarreta | Sitio realizado como proyecto personal </p>
+            <p>Este NO es un sitio oficial de la Iglesia de Jesucristo de los Santos de los Últimos días</p>
+        </div>
     </footer>
 </div>
 </body>
