@@ -66,7 +66,7 @@ a:hover {
 
 .fixed-nav {
     display:grid;
-    grid-template-columns: 1.7fr repeat(3, 1fr);
+    grid-template-columns: 1.7fr repeat(3, 1fr) 0.5fr;
     background-color: var(--nav-background-color);
     border-radius: 20px;
     height: 8vmin;
@@ -85,12 +85,12 @@ a:hover {
 }
 
 nav a {
-    display: flex;
     height: 8vh;
     font-family: var(--paragraph-font);
     color: var(--nav-link-color);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 nav a:hover{
@@ -230,7 +230,7 @@ nav a:hover{
 
 .footer-nav {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
     margin: 2% auto;
     background-color: var(--nav-background-color);
     border-radius: 10px;
@@ -250,6 +250,7 @@ nav a:hover{
     width: 100%;
     height: 9vh;
     justify-content: center;
+    font-size: 24px;
 }
 
 #a5 {
