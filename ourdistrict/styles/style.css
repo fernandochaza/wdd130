@@ -1,30 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300&family=Rowdies:wght@300&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Rowdies:wght@300&display=swap');:root {
     --primary-color: #FFFFFF;
     --secondary-color: #cccccc;
     --accent1-color: #FFE6E6;
     --accent2-color: #eec0c0;
   
     --heading-font: 'Rowdies', tahoma, "IM Fell French Canon SC";
-    --paragraph-font: 'Fraunces', Garamond, Helvetica, sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif, Garamond, Helvetica, sans-serif;
   
     --headline-color-on-white: black;   /* headlines on a white background */ 
     --headline-color-on-color: white; /* headlines on a colored background */ 
     --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-color-on-color: black;  /* paragraph text on a colored background */ 
     --paragraph-background-color: #cccccc73;
     --nav-link-color: black;
-    --nav-background-color: #cccccc;
+    --nav-background-color: #cccccc77;
     --nav-hover-link-color: #FFFFFF;
     --nav-hover-background-color: #FFDEDE;
   }
 
 #content {
-    width: 80%;
+    width: 100%;
     max-width: 1600px;
     margin: 0 auto;
     min-width: 600px;
-    margin-top: 12vmin;
+    margin-top: 110px;
 }
 
 img {
@@ -60,16 +59,18 @@ a:hover {
 }
 
 .action-button-history:hover,
-.action-button-leadership:hover{
+.action-button-leadership:hover,
+.history-action-button:hover{
     background-color:var(--accent2-color)
 }
 
 .fixed-nav {
     display:grid;
     grid-template-columns: 2.2fr repeat(3, 1fr) 0.5fr;
-    background-color: var(--nav-background-color);
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--accent2-color);
     column-gap: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0px; /* Position the navbar at the top of the page */
@@ -77,7 +78,8 @@ a:hover {
 }
 
 .nav-title {
-    font-size: 3vmin;
+    font-size: 32px;
+    font-weight: bold;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -102,7 +104,7 @@ nav a:hover{
     height: 3em;
     align-self: center;
     text-align: center;
-    font-size: 2.5vmin;
+
 }
 
 #a2 {
@@ -127,7 +129,7 @@ nav a:hover{
     grid-row: 1/7;
     object-fit: cover;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .home-banner-msg-container {
@@ -149,13 +151,13 @@ nav a:hover{
     color: white;
 }
 
-.home-floating-text {
-   margin: 5% 5%;
-   letter-spacing: 0.05em;
-   line-height: 1.3;
+.floating-text {
+   margin: 10% 5%;
+   letter-spacing: 0.06em;
+   line-height: 1.6;
 }
 
-.home-floating-text ul{
+.floating-text ul{
     line-height: 1.6;
     list-style-type: circle;
 }
@@ -163,8 +165,8 @@ nav a:hover{
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--accent1-color);
-    border-radius: 10px;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
     align-items: center;
     justify-items: center;
     padding: 5% 0;
@@ -180,7 +182,7 @@ nav a:hover{
     width: 80%;
     height: 300px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 5px solid black;
 }
 
@@ -196,11 +198,12 @@ nav a:hover{
 .action-button-history {
     grid-area: 3 / 1 / 4 / 2;
     text-align: center;
-    background-color:#CCCCCC;
-    border-radius: 12px;
+    font-weight: bold;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
     padding: 2%;
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 80px 0 10px 0;
     box-shadow: 5px 5px 10px black;
 }
 
@@ -209,7 +212,7 @@ nav a:hover{
     width: 80%;
     height: 300px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 5px solid black;
 }
 
@@ -226,20 +229,21 @@ nav a:hover{
 .action-button-leadership {
     grid-area: 3 / 2 / 4 / 3;
     text-align: center;
-    background-color:#CCCCCC;
-    border-radius: 12px;
+    font-weight: bold;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
     padding: 2%;
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    margin: 80px 0 10px 0;
     box-shadow: 5px 5px 10px black;
 }
 
 .footer-nav {
     display: grid;
     grid-template-columns: 0.5fr repeat(4, 1fr) 0.5fr;
-    margin-top: 100px;
+    margin: 80px 0 20px 0;
     background-color: var(--nav-background-color);
-    border-radius: 10px;
+    border-radius: 5px;
     height: 9vmin;
 }
 
@@ -276,7 +280,7 @@ nav a:hover{
 #bottom-text1,
 #bottom-text2 {
     text-align: center;
-    margin: 0;
+    margin: 10px 0;
     font-size: 20px;
 }
 
@@ -296,7 +300,6 @@ nav a:hover{
     padding: 0 40px;
 }
 
-
 .family-search-text {
     margin: 30px 0;
     grid-column: 1;
@@ -311,8 +314,9 @@ nav a:hover{
     align-self:center;
     text-align: center;
     padding: 5px 0;
-    background-color:#CCCCCC;
-    border-radius: 12px;
+    font-weight: bold;
+    background-color: var(--nav-background-color);
+    border-radius: 5px;
     box-shadow: 5px 5px 10px black;
 } 
 
