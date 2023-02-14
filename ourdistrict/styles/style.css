@@ -376,7 +376,7 @@ nav a:hover{
     padding-right: 60px;
 }
 
-#branch-left-contact-section {
+.branch-left-contact-section {
     padding: 0 0 30px 50px;
     box-sizing: border-box;
     grid-column: 1/3;
@@ -416,7 +416,7 @@ nav a:hover{
     padding-left: 60px;
 }
 
-#branch-right-contact-section {
+.branch-right-contact-section {
     padding: 0 0 30px 50px;
     box-sizing: border-box;
     grid-column: 1/3;
@@ -432,8 +432,6 @@ nav a:hover{
     font-size: 20px;
     margin: 0;
 }
-
-
 
 .branch-left-text ul,
 .branch-right-text ul {
