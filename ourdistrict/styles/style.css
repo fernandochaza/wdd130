@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Rowdies:wght@300&display=swap');:root {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Rowdies:wght@300&display=swap');
+
+:root {
     --primary-color: #FFFFFF;
     --secondary-color: #cccccc;
     --accent1-color: #FFE6E6;
     --accent2-color: #eec0c0;
   
     --heading-font: 'Rowdies', tahoma, "IM Fell French Canon SC";
-    --paragraph-font: 'Montserrat', sans-serif, Garamond, Helvetica, sans-serif;
+    --paragraph-font: 'Montserrat', sans-serif, Garamond, Helvetica;
   
     --headline-color-on-white: black;   /* headlines on a white background */ 
     --headline-color-on-color: white; /* headlines on a colored background */ 
@@ -170,7 +172,8 @@ nav a:hover{
     align-items: center;
     justify-items: center;
     padding: 5% 0;
-
+    width: 80%;
+    margin: 0 auto;
 }
 
 .grid-background {
@@ -358,6 +361,7 @@ nav a:hover{
     background-color: var(--nav-background-color);
     border-radius: 10px;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .branch-left-img {
@@ -377,6 +381,7 @@ nav a:hover{
     padding: 0 0 30px 50px;
     box-sizing: border-box;
     grid-column: 1/3;
+    text-align: center;
 }
 
 #whatsapp-logo {
@@ -399,11 +404,12 @@ nav a:hover{
     grid-column: 2/3;
     grid-row: 1/2;
     border-radius: 70px;
+    margin: 30px auto;
+    min-width: 500px;
 }
 
 .branch-right-text {
     grid-column-start: 1;
-    margin: 0;
     padding-left: 60px;
 }
 
@@ -411,4 +417,28 @@ nav a:hover{
     padding: 0 0 30px 50px;
     box-sizing: border-box;
     grid-column: 1/3;
+    text-align: center;
+}
+
+.branch-whatsapp-link {
+    font-size: 20px;
+    margin: 0 0 50px 0;
+}
+
+.branch-map-link{
+    font-size: 20px;
+    margin: 0;
+}
+
+#branch-left-contact-section p,
+#branch-right-contact-section p {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.branch-left-text ul,
+.branch-right-text ul {
+    line-height: 1.6;
+    list-style-type: circle;
+    margin-top: 0;
 }
