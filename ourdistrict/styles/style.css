@@ -337,7 +337,6 @@ nav a:hover{
     background-color: var(--nav-background-color);
     border-radius: 5px;
     padding: 40px 100px;
-
     line-height: 45px;
 }
 
@@ -384,7 +383,7 @@ nav a:hover{
     text-align: center;
 }
 
-#whatsapp-logo {
+.whatsapp-logo {
     width: 40px;
 }
 
@@ -398,6 +397,10 @@ nav a:hover{
     margin-bottom: 50px;
 }
 
+.branch-right h4,
+.branch-left h4 {
+    margin-bottom: 0;
+}
 .branch-right-img {
     padding: 50px 50px;
     box-sizing: border-box;
@@ -430,15 +433,20 @@ nav a:hover{
     margin: 0;
 }
 
-#branch-left-contact-section p,
-#branch-right-contact-section p {
-    font-size: 20px;
-    margin: 10px 0 0 0;
-}
+
 
 .branch-left-text ul,
 .branch-right-text ul {
     line-height: 1.6;
     list-style-type: circle;
     margin-top: 0;
+}
+
+.branch-left-contact-section a,
+.branch-left-contact-section p,
+.branch-right-contact-section a,
+.branch-right-contact-section p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
